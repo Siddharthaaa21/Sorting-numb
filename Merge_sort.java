@@ -15,7 +15,7 @@ static int[] mergeSort(int [] arr){
     }
     int mid =arr.length/2;
 
-    int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+    int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));//helps in creating a copy of an array
     int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
     return merge (left,right);
 }
