@@ -7,7 +7,7 @@ public class Merge_sort {
     public static void main(String args[]){
         int arr[]={10,55,8,6,7,3};
     arr= mergeSort(arr);
-    System.out.println(Arrays.toString(arr));
+    System.out.println(Arrays.toString(arr));// important take away ..... to display array without the loop!?
 }
 static int[] mergeSort(int [] arr){
     if(arr.length == 1){
